@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 function Hero() {
   return (
-    <div className='py-[3rem] w-full'>
+    <div className='py-[3rem] w-full overflow-hidden'>
       <div className='w-full grid lg:grid-cols-5 gap-[2rem] 2xl:h-[30rem] items-center max-w-[1300px] px-[10px] mx-auto 2xl:relative'>
         {/* Bounce animation for the text */}
         <Bounce cascade damping={0.5} triggerOnce className='lg:col-span-2'>
@@ -29,10 +29,10 @@ function Hero() {
         <Slide
           direction='right'
           triggerOnce
-          className='flex lg:col-span-3 gap-[1rem]'
+          className='flex lg:col-span-3 gap-[1rem] w-full  relative right-0 lg:right-[-5rem] 2xl:top-0'
         >
           <div className='w-full lg:block flex justify-center items-center'>
-            <div className='w-[350px] sm:w-[450px] md:w-[750px] lg:w-[800px] xl:w-[900px] h-[270px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[600px] relative 2xl:absolute 2xl:right-[-9rem] 2xl:top-0'>
+            <div className='w-full max-w-[300px] sm:max-w-[300px] sm:w-full md:max-w-[750px] md:w-full lg:max-w-[800px] lg:w-full xl:max-w-[900px] xl:w-full h-[270px] sm:h-[410px] md:h-[550px] lg:h-[450px] xl:h-[600px] 2xl:h-fit'>
               <Image
                 src='/images/iphone15.png'
                 fill
