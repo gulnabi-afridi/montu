@@ -31,14 +31,15 @@ function Hero() {
           triggerOnce
           className='flex lg:col-span-3 gap-[1rem]'
         >
-          <div className='w-full'>
-            <Image
-              src='/images/iphone15.png'
-              width={800}
-              height={500}
-              alt=''
-              className='2xl:absolute 2xl:right-[-9rem] 2xl:top-0'
-            />
+          <div className='w-full '>
+            <div className='w-[800px] md:w-[900px] h-[500px] md:h-[600px] relative 2xl:absolute 2xl:right-[-9rem] 2xl:top-0'>
+              <Image
+                src='/images/iphone15.png'
+                fill
+                alt=''
+                className='object-cover'
+              />
+            </div>
           </div>
         </Slide>
       </div>
