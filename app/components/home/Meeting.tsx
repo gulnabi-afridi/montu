@@ -9,21 +9,21 @@ export default function Meeting() {
       <div className='container flex-col gap-[1rem]'>
         {/* Bounce animation for the main heading */}
         <Bounce triggerOnce>
-          <h1 className='text-[32px] font-[600] leading-[35px]'>
+          <h1 className='text-[32px] sm:text-left text-center font-[600] leading-[35px]'>
             ¡Empieza a colaborar hoy!
           </h1>
         </Bounce>
 
         {/* Fade animation for the paragraph */}
         <Fade triggerOnce>
-          <p className='text-[16px] font-[500] leading-[22px] text-[#717D96]'>
+          <p className='text-[16px] sm:text-left text-center font-[500] leading-[22px] text-[#717D96]'>
             Agendemos una reunión y comienza a colaborar a través de Montu.
           </p>
         </Fade>
 
         {/* Fade animation for the input and button */}
         <Fade cascade triggerOnce className=''>
-          <div className='flex flex-col sm:flex-row justify-between gap-[2rem] mt-[1rem]'>
+          <div className='flex flex-col sm:flex-row items-center justify-between gap-[1rem] sm:gap-[2rem] mt-[1rem]'>
             <input
               type='text'
               className='p-[12px] border-2 outline-none rounded-[5px] border-[#CBD2E0] w-full sm:w-[80%]'

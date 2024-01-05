@@ -25,10 +25,10 @@ export default function Discover() {
           {/* Bounce animation for the text content */}
           <Bounce triggerOnce>
             <div className='flex flex-col gap-[2rem]'>
-              <h1 className='text-[32px] font-[600] leading-[35px] text-[--blackColor]'>
+              <h1 className='text-[32px] sm:text-left text-center font-[600] leading-[35px] text-[--blackColor]'>
                 Descubre todo el poder de las integraciones
               </h1>
-              <p className='text-[16px] font-[500] leading-[24px] text-[#717D96]'>
+              <p className='text-[16px] sm:text-left text-center font-[500] leading-[24px] text-[#717D96]'>
                 Te ofrecemos la primera app 100% integrada con Meta y TikTok,
                 para que tengas información al detalle de todos tus
                 colaboradores.

@@ -17,10 +17,10 @@ export default function OurClients() {
       <div className='container flex-col gap-[1rem]'>
         {/* Fade animation for the title and introduction */}
         <Fade triggerOnce>
-          <h1 className='text-[32px] font-[600] leading-[35px]'>
+          <h1 className='text-[32px] sm:text-left text-center font-[600] leading-[35px]'>
             Nuestros clientes no lo pueden creer.
           </h1>
-          <p className='text-[16px] font-[500] leading-[22px] text-[#717D96] mb-[1rem]'>
+          <p className='text-[16px] font-[500] sm:text-left text-center leading-[22px] text-[#717D96] mb-[1rem]'>
             Mira lo que nuestros usuarios dicen sobre Montu.
           </p>
         </Fade>

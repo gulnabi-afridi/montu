@@ -17,11 +17,11 @@ export default function Benefits() {
           {/* Slide animations for the text content */}
           <Slide direction='right' triggerOnce>
             <div className='flex flex-col gap-[2rem]'>
-              <h1 className='text-[32px] font-[600] leading-[35px] text-[--blackColor]'>
+              <h1 className='text-[32px] sm:text-left text-center font-[600] leading-[35px] text-[--blackColor]'>
                 Todos los beneficios del marketing de influencers en un solo
                 lugar
               </h1>
-              <p className='text-[16px] font-[500] leading-[24px] text-[#717D96]'>
+              <p className='text-[16px] sm:text-left text-center font-[500] leading-[24px] text-[#717D96]'>
                 Gracias al poder de nuestra tecnología, podemos darte acceso a
                 mejores colaboraciones, a un precio que no rompe tu bolsillo.
               </p>

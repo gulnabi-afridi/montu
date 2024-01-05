@@ -24,7 +24,7 @@ export default function WhyMontu() {
               </Bounce>
               <div className='flex flex-col gap-[2rem]'>
                 <Slide direction='up' triggerOnce>
-                  <p className='text-[16px] font-[500] leading-[22px] text-[#717D96]'>
+                  <p className='text-[16px] sm:text-left text-center font-[500] leading-[22px] text-[#717D96]'>
                     Nuestra plataforma integrada te ahorra horas de trabajo, con
                     creadores verificados y resultados garantizados.
                   </p>

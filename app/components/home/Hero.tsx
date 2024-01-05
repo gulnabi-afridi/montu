@@ -31,8 +31,8 @@ function Hero() {
           triggerOnce
           className='flex lg:col-span-3 gap-[1rem]'
         >
-          <div className='w-full '>
-            <div className='w-[800px] md:w-[900px] h-[500px] md:h-[600px] relative 2xl:absolute 2xl:right-[-9rem] 2xl:top-0'>
+          <div className='w-full lg:block flex justify-center items-center'>
+            <div className='w-[350px] sm:w-[450px] md:w-[750px] lg:w-[800px] xl:w-[900px] h-[270px] sm:h-[300px] md:h-[450px] lg:h-[500px] xl:h-[600px] relative 2xl:absolute 2xl:right-[-9rem] 2xl:top-0'>
               <Image
                 src='/images/iphone15.png'
                 fill

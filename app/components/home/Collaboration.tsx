@@ -17,11 +17,11 @@ export default function Collaboration() {
         {/* Fade animation for the heading and paragraph */}
         <Fade triggerOnce>
           <div className='flex flex-col gap-[10px] mx-auto md:w-[57%]'>
-            <h1 className='text-[32px] font-[600] leading-[35px]'>
+            <h1 className='text-[32px] sm:text-left text-center font-[600] leading-[35px]'>
               Empieza a colaborar hoy mismo a través de campañas con impacto
               real
             </h1>
-            <p className='text-[16px] font-[500] leading-[22px] text-[#717D96]'>
+            <p className='text-[16px] font-[500] sm:text-left text-center leading-[22px] text-[#717D96]'>
               Desarrolla colaboraciones con impacto en las ventas de tu negocio
               o las de tus clientes.
             </p>
