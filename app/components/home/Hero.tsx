@@ -1,14 +1,14 @@
 'use client';
 
-import { Fade, Zoom } from 'react-awesome-reveal';
+import { Bounce, Slide } from 'react-awesome-reveal';
 import Image from 'next/image';
 
 function Hero() {
   return (
     <div className='py-[3rem] w-full'>
       <div className='w-full grid lg:grid-cols-5 gap-[2rem] 2xl:h-[30rem] items-center max-w-[1300px] px-[10px] mx-auto 2xl:relative'>
-        {/* Fade animation for the text */}
-        <Fade cascade damping={0.5} className=' lg:col-span-2'>
+        {/* Bounce animation for the text */}
+        <Bounce cascade damping={0.5} triggerOnce className='lg:col-span-2'>
           <div className='flex lg:col-span-2 flex-col gap-[1rem] items-center md:items-start'>
             <h1 className='text-[40px] font-[600] leading-[50px] text-[--blackColor] text-center md:text-left'>
               Vender con
@@ -23,10 +23,15 @@ function Hero() {
               ¡Empecemos! 🚀
             </button>
           </div>
-        </Fade>
-        {/* Zoom animation for the image */}
-        <div className='flex lg:col-span-3 gap-[1rem]'>
-          <Zoom className='w-full'>
+        </Bounce>
+
+        {/* Slide animation for the image */}
+        <Slide
+          direction='right'
+          triggerOnce
+          className='flex lg:col-span-3 gap-[1rem]'
+        >
+          <div className='w-full'>
             <Image
               src='/images/iphone15.png'
               width={800}
@@ -34,8 +39,8 @@ function Hero() {
               alt=''
               className='2xl:absolute 2xl:right-[-9rem] 2xl:top-0'
             />
-          </Zoom>
-        </div>
+          </div>
+        </Slide>
       </div>
     </div>
   );
