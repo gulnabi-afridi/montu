@@ -29,10 +29,10 @@ function Hero() {
         <Slide
           direction='right'
           triggerOnce
-          className='flex lg:col-span-3 gap-[1rem] w-full  relative right-0 lg:right-[-5rem] 2xl:top-0'
+          className='flex lg:col-span-3 gap-[1rem] w-full relative right-0 lg:right-[-5rem] 2xl:top-0'
         >
           <div className='w-full lg:block flex justify-center items-center'>
-            <div className='w-full max-w-[300px] sm:max-w-[300px] sm:w-full md:max-w-[750px] md:w-full lg:max-w-[800px] lg:w-full xl:max-w-[900px] xl:w-full h-[270px] sm:h-[410px] md:h-[550px] lg:h-[450px] xl:h-[600px] 2xl:h-fit'>
+            <div className='w-full max-w-[300px] sm:max-w-[300px] sm:w-full md:max-w-[750px] md:w-full lg:max-w-[800px] lg:w-full xl:max-w-[900px] 2xl:max-w-[1000px] 2xl:w-full xl:w-full h-[270px] sm:h-[410px] md:h-[550px] lg:h-[450px] xl:h-[600px] 2xl:h-[500px]'>
               <Image
                 src='/images/iphone15.png'
                 fill
